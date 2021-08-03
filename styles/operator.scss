@@ -1,0 +1,20 @@
+$base-font-size: 1.2em;
+$them-color: red;
+
+body{
+    font-size: $base-font-size;
+    background-color: $them-color + 230;
+
+    h1 {
+        color: $them-color - 50;
+        font-size: $base-font-size * 2;
+    }
+
+    h2 {
+        color: $them-color + 100;
+        font-size: $base-font-size * 1.5;
+    }
+    input {
+        background-color:$them-color + 200;
+    }
+}
